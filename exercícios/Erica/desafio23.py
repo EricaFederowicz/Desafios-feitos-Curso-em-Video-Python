@@ -1,0 +1,11 @@
+# leia um numero de 0 a 9999 e mostre cada digito separadamente
+n = input('Digite um número de 0 a 9.999: ')
+n1 = n.rjust(4)
+print('milhar: ', end = '')
+print(n1[0])
+print('centena: ', end = '')
+print(n1[1])
+print('dezena: ', end = '')
+print(n1[2])
+print('unidade: ', end = '')
+print(n1[3])
